@@ -1,0 +1,22 @@
+{
+  "name": "Mention Bot",
+  "description": "A simple mention all for telegram.",
+  "logo": "https://telegra.ph/file/e83f1df9c9a21c3411537.jpg",
+  "env": {
+    "TOKEN": {
+      "description": "Enter bot token.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal.",
+      "value": ""
+    }
+  },
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }]
+}
