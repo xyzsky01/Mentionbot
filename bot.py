@@ -18,8 +18,8 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 async def start(event):
   await event.reply("__**Saya Adalah MentionAll Bot**, Saya Dapat Membantu Anda Mention Semua Member 👻\nClick **/help** Untuk Infromasi Lebih Lanjut__\n\n Maintaned By @Thisisskyreal",
                     buttons=(
-                      [Button.url('⚜️ Channel', 'https://t.me/Thisisskyreal'),
-                      Button.url('👑 OWNER', 'https://t.me/Thisisskyreal')]
+                      [Button.url('⚜️ Channel', 'https://t.me/tentangsayaa01'),
+                      Button.url('👑 OWNER', 'https://t.me/thisiszx')]
                     ),
                     link_preview=False
                    )
@@ -28,8 +28,8 @@ async def help(event):
   helptext = "**Help Menu of MentionBot**\n\nCommand: /all\n__You can use this command with text what you want to mention others.__\n`Example: /all Jangan Lupa Sholat!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [sky](https://github.com/xyzsky01) on Github"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('⚜️ Channel', 'https://t.me/Thisisskyreal'),
-                      Button.url('👑 Groub', 'https://t.me/Thisisskyreal')]
+                      [Button.url('⚜️ Channel', 'https://t.me/tentangsayaa01'),
+                      Button.url('👑 Groub', 'https://t.me/thisiszx')]
                     ),
                     link_preview=False
                    )
